@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Bouton d'or",
+    "race": "Genet d'Espagne",
+    "age": "11",
+    "utility": "War",
+    "price": "10",
+    "image": "./images/Boutond_Or_DxO.jpg"
+  },
+  {
+    "name": "Black Beauty",
+    "race": "Frison",
+    "age": "16",
+    "utility": "War",
+    "price": "20",
+    "image": "../images/BlackBeauty_DxO.jpg"
+  },
+  {
+    "name": "Flicka",
+    "race": "Palefroi",
+    "age": "12",
+    "utility": "Equitation",
+    "price": "19",
+    "image": "../images/Flicka_DxO.jpg"
+  },
+  {
+    "name": "Gripoil",
+    "race": "Amble",
+    "age": "6",
+    "utility": "Equitation",
+    "price": "17",
+    "image": "../images/Gripoil_DxO.jpg"
+  },
+  {
+    "name": "Pilgrim",
+    "race": "Great Horse",
+    "age": "26",
+    "utility": "Work Horse",
+    "price": "18",
+    "image": "../images/Pilgrim_DxO.jpg"
+  },
+  {
+    "name": "Rossinante",
+    "race": "Shire",
+    "age": "22",
+    "utility": "Work Horse",
+    "price": "16",
+    "image": "../images/Rossinante_DxO.jpg"
+  },
+  {
+    "name": "Tornado",
+    "race": "Palefroi",
+    "age": "7",
+    "utility": "Transport",
+    "price": "28",
+    "image": "../images/Tornado_DxO.jpg"
+  },
+  {
+    "name": "Jolly Jumper",
+    "race": "Haquenées",
+    "age": "9",
+    "utility": "Transport",
+    "price": "15",
+    "image": "../images/JollyJumper_DxO.jpg"
+  },
+  {
+    "name": "Petit Tonerre",
+    "race": "Shire",
+    "age": "13",
+    "utility": "Tournaments",
+    "price": "48",
+    "image": "../images/PetitTonerre_DxO.jpg"
+  },
+  {
+    "name": "Crin Blanc",
+    "race": "Shire",
+    "age": "8",
+    "utility": "Tournaments",
+    "price": "45",
+    "image": "../images/CrinBlanc_DxO.jpg"
+  }
+]

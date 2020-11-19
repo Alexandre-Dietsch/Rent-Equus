@@ -6,6 +6,8 @@ import Home from './components/Home.js';
 import Library from './components/Library.js';
 import Profile from './components/Profile.js';
 import Footer from './components/Footer.js';
+import HorsesLibrary from "./HorsesLibrary";
+
 
 export default function App() {
   return (
@@ -13,6 +15,7 @@ export default function App() {
       <Router>
         <div>
           <Navbar />
+            <HorsesLibrary />
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/horse-library" component={Library} />
@@ -21,7 +24,7 @@ export default function App() {
           <Footer />
         </div>
       </Router>
-    </div>
+     </div>
   );
 }
 
