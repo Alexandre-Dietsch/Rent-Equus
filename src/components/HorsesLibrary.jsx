@@ -1,5 +1,6 @@
 import React from "react";
-import data from "./data/horses.json";
+import data from "../data/horses.json";
+import { Link } from "react-router-dom";
 
 
 function HorsesLibrary() {
@@ -10,7 +11,10 @@ function HorsesLibrary() {
 					<div> 
 						<img scr= {horse.image} alt={ horse.name } />
 						<h3>{horse.name}</h3>
-						<button type= "submit" name={ horse.name } >trololololololol</button>
+						<Link to="/horse-profile">
+						  <button type= "submit" name={ horse.name } >trololololololol</button>
+						</Link>
+						
 					</div>
 				))
 			}
