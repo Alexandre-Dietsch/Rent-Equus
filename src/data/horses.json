@@ -5,7 +5,7 @@
     "age": "11",
     "utility": "War",
     "price": "10",
-    "image": "../images/Boutond_Or_DxO.jpeg"
+    "image": "./images/Boutond_Or_DxO.jpg"
   },
   {
     "name": "Black Beauty",
