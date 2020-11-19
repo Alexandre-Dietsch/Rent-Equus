@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../styles/reservation.css'
 
-export default function Reservation() {
+export default function Reservation({ popupHandler }) {
   return (
     <div className="cart-container">
       <div className='reservation-container'>
@@ -20,7 +20,6 @@ export default function Reservation() {
             </div>
           </div>
         </div>
-
         <div className="cart-summary">
           <div className="cart-summary-description">
             <p>TOTAL</p>
@@ -29,15 +28,13 @@ export default function Reservation() {
             <span>10 ecu</span>
           </div>
         </div>
-
         <div className="cart-contract">
           <span>
             Maintenance and food are at your expense.
         </span>
         </div>
-
         <div className="cart-button">
-          <button className='rent-button' type='submit'>Rent</button>
+          <button className='rent-button' type='submit' onClick={popupHandler}>Rent</button>
         </div>
       </div>
     </div>
