@@ -5,7 +5,8 @@
     "age": "11",
     "utility": "War",
     "price": "10",
-    "image": "../images/Boutond-Or_DxO.jpeg"
+    "image": "../images/Boutond-Or_DxO.jpg",
+    "index": 0
   },
   {
     "name": "Black Beauty",
@@ -13,7 +14,8 @@
     "age": "16",
     "utility": "War",
     "price": "20",
-    "image": "../images/BlackBeauty_DxO.jpg"
+    "image": "../images/BlackBeauty_DxO.jpg",
+    "index": 1
   },
   {
     "name": "Flicka",
