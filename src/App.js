@@ -1,6 +1,7 @@
 import React from 'react';
+import './styles/app.css'
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <h1>Rent Equus</h1>
@@ -8,4 +9,3 @@ function App() {
   );
 }
 
-export default App;
