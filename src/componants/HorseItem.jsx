@@ -1,12 +1,12 @@
 import React from 'react';
 import './HorseItem.css';
 
-const HorseItem = ({horseInfo}) => {
-  const {bouton_dor: horse } = horseInfo
+const HorseItem = () => {
+  
 
   return(
     <div  className="card-container">
-    <section className="head-container">
+    {/* <section className="head-container">
       <h1>{horse.name}</h1>
       
     </section>
@@ -17,7 +17,7 @@ const HorseItem = ({horseInfo}) => {
       <p>Utility : {horse.utility}</p>
       <p>Price : {horse.price}</p>
       
-    </section>
+    </section> */}
     </div>
   )
 }
