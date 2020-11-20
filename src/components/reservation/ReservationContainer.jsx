@@ -9,8 +9,6 @@ export default function ReservationContainer() {
     setOpen(!open)
   }
 
-
-
   return (
     <div>
       <Reservation popupHandler={popupHandler} />

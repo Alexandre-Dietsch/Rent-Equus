@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import '../../styles/confirmation.css'
 
 export default function ConfirmationDisplay({ popupHandler }) {
@@ -10,9 +11,14 @@ export default function ConfirmationDisplay({ popupHandler }) {
             <i className="fas fa-times" />
           </button>
           <h1>Thank you so much for yor reservation</h1>
-          <p>order n°5165</p>
+          <p>order n°{Math.round(Math.random() * Math.floor(5000))}</p>
         </div>
       </div>
     </div>
   )
 }
+
+ConfirmationDisplay.propTypes = {
+  popupHandler: PropTypes.func.isRequired,
+}
+

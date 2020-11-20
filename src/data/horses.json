@@ -5,7 +5,8 @@
     "age": "11",
     "utility": "War",
     "price": "10",
-    "image": ""
+    "image": "/static/media/bouton-dor.c718789e.jpg",
+    "index": 0
   },
   {
     "name": "Black Beauty",
@@ -13,7 +14,8 @@
     "age": "16",
     "utility": "War",
     "price": "20",
-    "image": ""
+    "image": "/static/media/black-beauty.e3aee782.jpg",
+    "index": 1
   },
   {
     "name": "Flicka",
@@ -21,7 +23,8 @@
     "age": "12",
     "utility": "Equitation",
     "price": "19",
-    "image": ""
+    "image": "../images/flicka.jpg",
+    "index": 2
   },
   {
     "name": "Gripoil",
@@ -29,7 +32,8 @@
     "age": "6",
     "utility": "Equitation",
     "price": "17",
-    "image": ""
+    "image": "../images/gripoil.jpg",
+    "index": 3
   },
   {
     "name": "Pilgrim",
@@ -37,7 +41,8 @@
     "age": "26",
     "utility": "Work Horse",
     "price": "18",
-    "image": ""
+    "image": "../images/pilgrim.jpg",
+    "index": 4
   },
   {
     "name": "Rossinante",
@@ -45,7 +50,8 @@
     "age": "22",
     "utility": "Work Horse",
     "price": "16",
-    "image": ""
+    "image": "../images/rossinante.jpg",
+    "index": 5
   },
   {
     "name": "Tornado",
@@ -53,7 +59,8 @@
     "age": "7",
     "utility": "Transport",
     "price": "28",
-    "image": ""
+    "image": "../images/tornado.jpg",
+    "index": 6
   },
   {
     "name": "Jolly Jumper",
@@ -61,7 +68,8 @@
     "age": "9",
     "utility": "Transport",
     "price": "15",
-    "image": ""
+    "image": "../images/jolly-jumper.jpg",
+    "index": 7
   },
   {
     "name": "Petit Tonerre",
@@ -69,7 +77,8 @@
     "age": "13",
     "utility": "Tournaments",
     "price": "48",
-    "image": ""
+    "image": "../images/petit-tonerre.jpg",
+    "index": 8
   },
   {
     "name": "Crin Blanc",
@@ -77,6 +86,7 @@
     "age": "8",
     "utility": "Tournaments",
     "price": "45",
-    "image": ""
+    "image": "../images/crin-blanc.jpg",
+    "index": 9
   }
 ]
