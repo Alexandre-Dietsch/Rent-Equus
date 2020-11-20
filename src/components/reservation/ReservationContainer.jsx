@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import Reservation from './Reservation';
 import ConfirmationDisplay from './ConfirmationDisplay';
@@ -9,12 +9,17 @@ export default function ReservationContainer() {
   const { index } = useParams();
 
   const popupHandler = () => {
-    const url = 'https://dm0qx8t0i9gc9.cloudfront.net/watermarks/audio/SxoktnUHBjzy8oizv/trumpet-fanfare1_WM.mp3';
-    const audio = new Audio(url);
     setOpen(!open)
-    setPlay(!play)
-    audio.play()
   }
+
+  useEffect(() => {
+    if (open) {
+      const url = 'https://dm0qx8t0i9gc9.cloudfront.net/watermarks/audio/SxoktnUHBjzy8oizv/trumpet-fanfare1_WM.mp3';
+      const audio = new Audio(url);
+      setPlay(true)
+      audio.play()
+    }
+  }, [open])
 
   return (
     <div>
