@@ -1,8 +1,8 @@
 .cart-container {
-  min-width: 100vw;
-  min-height: 90vh;
+  min-width: 90vw;
+  min-height: 85vh;
   display: flex;
-  flex-direction: column  ;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -13,7 +13,7 @@
   align-items: center;
   justify-content: center;
   width: 90vw;
-  min-height:  70vh;
+  min-height: 70vh;
 }
 
 .cart-product {
@@ -23,31 +23,39 @@
   border: 0.1rem solid rgb(219, 219, 219);
 }
 
+.product-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .product-image {
-  width: 60%;
-  height: 100px;
+  width: 20vw;
+  height: 200px;
+  margin-right: 10rem;
 }
 
 .cart-info {
   display: flex;
-  justify-content: flex-start;
-  
+  justify-content: space-around;
 }
 
 .cart-info h2 {
   margin-right: 2rem;
-  font-size: 2rem;
+  font-size: 4rem;
 }
 
 .cart-info p {
-  font-size: 1.2rem;
+  font-size: 2.5rem;
 }
 
 .product-price {
   display: flex;
   align-items: center;
-  margin-right: 2rem;
-  font-size: 1.5rem;
+  margin-left: 10rem;
+  margin-right: 5rem;
+  font-size: 3rem;
 }
 
 .cart-summary {
@@ -57,26 +65,33 @@
   margin: 2rem;
   min-width: 100%;
   min-height: 20vh;
-} 
+}
 
 .cart-summary-description p {
-  font-size: 1.5rem;
-  margin-right: 2rem;
+  font-size: 4rem;
 }
 
 .cart-summary-price span {
-  font-size: 1.5rem;
+  font-size: 3rem;
   color: rgb(167, 164, 164);
 }
 
 .rent-button {
   min-width: 30rem;
   color: white;
-  background: black;
+  background: #464d77;
   padding: 1.5rem;
   cursor: pointer;
+  border: none;
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
 }
 
 .rent-button:hover {
-  background: rgb(36, 36, 36);
+  background: #36827f;
+}
+
+.cart-contact {
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
