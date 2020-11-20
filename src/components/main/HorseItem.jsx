@@ -1,5 +1,5 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import data from '../../data/horses.json';
 import '../../styles/horseItem.css';
 
@@ -12,14 +12,17 @@ export default function HorseItem() {
         <img className="horse-img" src={data[index].image} alt={data[index].name} />
       </section>
       <section className="info-container">
-      <section className="data-container">
-        <p>Name : {data[index].name}.</p>
-        <p>Race :  {data[index].race}.</p>
-        <p>Age :  {data[index].age} years old. </p>
-        <p>Utility : {data[index].utility}.</p>
-      </section>
+        <section className="data-container">
+          <p>Name : {data[index].name}.</p>
+          <p>Race :  {data[index].race}.</p>
+          <p>Age :  {data[index].age} years old. </p>
+          <p>Utility : {data[index].utility}.</p>
+        </section>
       <section className="price-container">
         <p>Price : {data[index].price} ecu.</p>
+        <Link to={`/reservation/${index}`}>
+          <button type='submit'>Rent {data[index].name}</button>
+        </Link>
       </section>
       </section>
     </div>

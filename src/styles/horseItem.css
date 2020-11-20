@@ -10,7 +10,7 @@
   box-sizing: border-box;
   flex-direction: column;
   margin: 7%;
-  border: 10px outset #464D77;
+  border: 10px solid #464D77;
   
 }
 
@@ -34,7 +34,7 @@
 }
 
 .horse-img{
-    width: 100%;
+  width: 100%;
 }
 
 .price-container{
