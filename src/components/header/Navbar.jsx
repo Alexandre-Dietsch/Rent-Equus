@@ -18,11 +18,6 @@ export default function Navigation() {
             Horses
           </Link>
         </li>
-        <li>
-          <Link to="/reservation">
-            Reservation
-          </Link>
-        </li>
       </ul>
     </div>
   );

@@ -15,7 +15,7 @@ export default function Reservation({ popupHandler, index }) {
           <div className="cart-info">
             <div className="product-description">
               <h2>{data[index].name}</h2>
-              <p>10june at 12june</p>
+              <p>june 10th to june 12th</p>
             </div>
             <div className="product-price">
               <span>{data[index].price} ecu</span>
@@ -24,13 +24,13 @@ export default function Reservation({ popupHandler, index }) {
         </div>
         <div className="cart-summary">
           <div className="cart-summary-description">
-            <p>TOTAL</p>
+            <p>Total : </p>
           </div>
           <div className="cart-summary-price">
             <span>{data[index].price} ecu</span>
           </div>
         </div>
-        <div className="cart-contract">
+        <div className="cart-contact">
           <span>
             Maintenance and food are at your expense.
         </span>

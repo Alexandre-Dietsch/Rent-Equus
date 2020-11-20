@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './styles/app.css'
-import './fonts/Prince_Valiant_2.ttf'
 import Navbar from './components/header/Navbar.jsx';
 import Home from './components/main/Home';
 import HorseItem from './components/main/HorseItem.jsx';

@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import './fonts/Prince_Valiant_2.ttf'
+
 
 ReactDOM.render(
   <React.StrictMode>

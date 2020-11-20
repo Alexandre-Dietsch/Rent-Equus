@@ -10,7 +10,6 @@ function HorsesLibrary() {
 				data.map(horse => (
 					<div className="Container" key={horse.name}>
 						<img className="imghorse" style={{ width: '65%' }} src={horse.image} alt={horse.name} />
-						<h3 className="horsetitle">{horse.name}</h3>
 						<Link to={`/horse-profile/${horse.index}`}>
 							<button className="horsebutton" index={horse.index} type="submit" name={horse.name} >{horse.name}</button>
 						</Link>

@@ -3,7 +3,8 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  min-height: 10%;
+  min-height: 10vh;
+  border-bottom: 0.2px solid gray;
 }
 
 .logo {
@@ -24,11 +25,11 @@
 }
 
 .navbar-flex a:hover {
-  color: #36827F;
+  color: #36827f;
   text-decoration: underline;
 }
 
 .navbar-flex a {
   text-decoration: none;
-  color: #464D77;
+  color: #464d77;
 }

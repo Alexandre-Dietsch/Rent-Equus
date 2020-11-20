@@ -19,7 +19,7 @@ export default function HorseItem() {
           <p>Utility : {data[index].utility}.</p>
         </section>
       <section className="price-container">
-        <p>Price : {data[index].price} ecu.</p>
+        <p className="troudeballe">Price : {data[index].price} ecu.</p>
         <Link to={`/reservation/${index}`}>
           <button className="button" type='submit'>Rent {data[index].name}</button>
         </Link>
