@@ -1,3 +1,54 @@
 .card-container {
-  background: rgb(212, 212, 212)
+  overflow: hidden;
+  background: rgb(212, 212, 212);
+  display: flex;
+  border-radius: 30px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 1280px;
+  box-sizing: border-box;
+  flex-direction: column;
+  margin: 7%;
+  border: 10px outset #464D77;
+  
+}
+
+.img-container{
+  overflow: hidden;
+  flex: 1 1;
+  display: flex;
+  width: 100%;
+}
+
+.data-container {
+  flex: 2 1;
+  background: rgba(30, 94, 17, 0.7);
+  box-sizing: border-box;
+  margin: 10px;
+  border-radius: 23px;
+  text-align: left;
+  padding: 2rem ;
+  font-size: 16px;
+  
+}
+
+.horse-img{
+    width: 100%;
+}
+
+.price-container{
+  flex: 2 1;
+  background: rgba(30, 94, 17, 0.7);
+  box-sizing: border-box;
+  margin: 10px;
+  border-radius: 23px;
+  text-align: left;
+  padding: 2rem ;
+  font-size: 26px;
+}
+
+.info-container{
+  display: flex;
+  align-items: stretch;
 }
