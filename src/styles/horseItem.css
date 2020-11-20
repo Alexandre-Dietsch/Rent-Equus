@@ -11,26 +11,26 @@
   flex-direction: column;
   margin: 7%;
   border: 10px solid #464D77;
-  
+  font-size: large;
 }
 
 .img-container{
   overflow: hidden;
-  flex: 1 1;
-  display: flex;
-  width: 100%;
+  object-fit: contain;
+  
 }
 
 .data-container {
-  flex: 2 1;
-  background: rgba(30, 94, 17, 0.7);
   box-sizing: border-box;
   margin: 10px;
-  border-radius: 23px;
   text-align: left;
   padding: 2rem ;
-  font-size: 16px;
+  font-size: 25px;
   
+}
+
+.data-container p{
+  padding-top: 1rem;
 }
 
 .horse-img{
@@ -38,17 +38,34 @@
 }
 
 .price-container{
-  flex: 2 1;
-  background: rgba(30, 94, 17, 0.7);
-  box-sizing: border-box;
+  height: 100%;
   margin: 10px;
   border-radius: 23px;
-  text-align: left;
+  text-align: center;
   padding: 2rem ;
   font-size: 26px;
 }
 
 .info-container{
   display: flex;
-  align-items: stretch;
+  text-align: center;
+  align-items: center;
+  
+}
+
+.button {
+  background-color: #464D77;
+  border-radius: 15px;
+  border: none;
+  color: rgb(252, 252, 252);
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: #36827F;
+  color: white;
 }
