@@ -5,7 +5,7 @@
     "age": "11",
     "utility": "War",
     "price": "10",
-    "image": "/static/media/bouton-dor.c718789e.jpg",
+    "image": "https://i.ibb.co/WvLjzwh/Boutond-Or-Dx-O.jpg",
     "index": 0
   },
   {
@@ -14,7 +14,7 @@
     "age": "16",
     "utility": "War",
     "price": "20",
-    "image": "/static/media/black-beauty.e3aee782.jpg",
+    "image": "https://i.ibb.co/J57bjSP/Black-Beauty-Dx-O.jpg",
     "index": 1
   },
   {
@@ -23,7 +23,7 @@
     "age": "12",
     "utility": "Equitation",
     "price": "19",
-    "image": "../images/flicka.jpg",
+    "image": "https://i.ibb.co/zX6ntVF/Flicka-Dx-O.jpg",
     "index": 2
   },
   {
@@ -32,7 +32,7 @@
     "age": "6",
     "utility": "Equitation",
     "price": "17",
-    "image": "../images/gripoil.jpg",
+    "image": "https://i.ibb.co/1zXn6Lx/Gripoil-Dx-O.jpg",
     "index": 3
   },
   {
@@ -41,7 +41,7 @@
     "age": "26",
     "utility": "Work Horse",
     "price": "18",
-    "image": "../images/pilgrim.jpg",
+    "image": "https://i.ibb.co/8NcH1vt/Pilgrim-Dx-O.jpg",
     "index": 4
   },
   {
@@ -50,7 +50,7 @@
     "age": "22",
     "utility": "Work Horse",
     "price": "16",
-    "image": "../images/rossinante.jpg",
+    "image": "https://i.ibb.co/yqFNz0H/Rossinante-Dx-O.jpg",
     "index": 5
   },
   {
@@ -59,7 +59,7 @@
     "age": "7",
     "utility": "Transport",
     "price": "28",
-    "image": "../images/tornado.jpg",
+    "image": "https://i.ibb.co/YPxn1Xq/Tornado-Dx-O.jpg",
     "index": 6
   },
   {
@@ -68,7 +68,7 @@
     "age": "9",
     "utility": "Transport",
     "price": "15",
-    "image": "../images/jolly-jumper.jpg",
+    "image": "https://i.ibb.co/B6nhDgd/Jolly-Jumper-Dx-O.jpg",
     "index": 7
   },
   {
@@ -77,7 +77,7 @@
     "age": "13",
     "utility": "Tournaments",
     "price": "48",
-    "image": "../images/petit-tonerre.jpg",
+    "image": "https://i.ibb.co/thpHcgW/Petit-Tonerre-Dx-O.jpg",
     "index": 8
   },
   {
@@ -86,7 +86,7 @@
     "age": "8",
     "utility": "Tournaments",
     "price": "45",
-    "image": "../images/crin-blanc.jpg",
+    "image": "https://i.ibb.co/KwXMxGX/Crin-Blanc-Dx-O.jpg",
     "index": 9
   }
 ]
