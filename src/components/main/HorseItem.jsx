@@ -1,5 +1,5 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import data from '../../data/horses.json';
 import '../../styles/horseItem.css';
 
@@ -19,6 +19,11 @@ export default function HorseItem() {
         <p>Utility : {data[index].utility}.</p>
         <p>Price : {data[index].price} ecu.</p>
       </section>
+      <div className='button'>
+        <Link to={`/reservation/${index}`}>
+          <button type='submit'>Rent {data[index].name}</button>
+        </Link>
+      </div>
     </div>
   )
 }

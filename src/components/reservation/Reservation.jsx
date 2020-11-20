@@ -1,22 +1,24 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import '../../styles/reservation.css'
+import data from '../../data/horses.json';
 
-export default function Reservation({ popupHandler }) {
+export default function Reservation({ popupHandler, index }) {
   return (
     <div className="cart-container">
       <div className='reservation-container'>
         <div className="cart-product">
           <div className="product-image">
-            <img className='product-image' src='https://placedog.net/500'
+            <img className='product-image' src={data[index].image}
               alt='horse selected' />
           </div>
           <div className="cart-info">
             <div className="product-description">
-              <h2>Tonnerre</h2>
+              <h2>{data[index].name}</h2>
               <p>10june at 12june</p>
             </div>
             <div className="product-price">
-              <span>10ecu/hour</span>
+              <span>{data[index].price} ecu</span>
             </div>
           </div>
         </div>
@@ -25,7 +27,7 @@ export default function Reservation({ popupHandler }) {
             <p>TOTAL</p>
           </div>
           <div className="cart-summary-price">
-            <span>10 ecu</span>
+            <span>{data[index].price} ecu</span>
           </div>
         </div>
         <div className="cart-contract">
@@ -39,4 +41,9 @@ export default function Reservation({ popupHandler }) {
       </div>
     </div>
   )
+}
+
+Reservation.propTypes = {
+  popupHandler: PropTypes.func.isRequired,
+  index: PropTypes.number.isRequired,
 }
