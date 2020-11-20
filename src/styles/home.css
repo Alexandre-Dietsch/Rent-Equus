@@ -1,3 +1,30 @@
 .home-container {
-  background: rgb(212, 212, 212)
+  min-height: 90%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5em;
+  color: #464D77;
+  margin: 1.5em 0 0.5em 0;
+}
+
+p {
+  text-align: center;
+  font-size: 2em;
+  color: #464D77;
+  margin: 0 0 2em 0;
+}
+
+p:hover {
+  text-decoration: underline;
+  color: #36827F;
+}
+
+a {
+  text-decoration: none;
+}
+
+.img {
+  text-align: center;
 }
