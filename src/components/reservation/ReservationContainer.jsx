@@ -13,9 +13,9 @@ export default function ReservationContainer() {
   }
 
   useEffect(() => {
+    const url = 'https://dm0qx8t0i9gc9.cloudfront.net/watermarks/audio/SxoktnUHBjzy8oizv/trumpet-fanfare1_WM.mp3';
+    const audio = new Audio(url);
     if (open) {
-      const url = 'https://dm0qx8t0i9gc9.cloudfront.net/watermarks/audio/SxoktnUHBjzy8oizv/trumpet-fanfare1_WM.mp3';
-      const audio = new Audio(url);
       setPlay(true)
       audio.play()
     }
