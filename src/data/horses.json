@@ -5,7 +5,7 @@
     "age": "11",
     "utility": "War",
     "price": "10",
-    "image": "../images/Boutond-Or_DxO.jpg",
+    "image": "/static/media/bouton-dor.c718789e.jpg",
     "index": 0
   },
   {
@@ -14,7 +14,7 @@
     "age": "16",
     "utility": "War",
     "price": "20",
-    "image": "../images/BlackBeauty_DxO.jpg",
+    "image": "/static/media/black-beauty.e3aee782.jpg",
     "index": 1
   },
   {
@@ -23,7 +23,8 @@
     "age": "12",
     "utility": "Equitation",
     "price": "19",
-    "image": "../images/Flicka_DxO.jpg"
+    "image": "../images/flicka.jpg",
+    "index": 2
   },
   {
     "name": "Gripoil",
@@ -31,7 +32,8 @@
     "age": "6",
     "utility": "Equitation",
     "price": "17",
-    "image": "../images/Gripoil_DxO.jpg"
+    "image": "../images/gripoil.jpg",
+    "index": 3
   },
   {
     "name": "Pilgrim",
@@ -39,7 +41,8 @@
     "age": "26",
     "utility": "Work Horse",
     "price": "18",
-    "image": "../images/Pilgrim_DxO.jpg"
+    "image": "../images/pilgrim.jpg",
+    "index": 4
   },
   {
     "name": "Rossinante",
@@ -47,7 +50,8 @@
     "age": "22",
     "utility": "Work Horse",
     "price": "16",
-    "image": "../images/Rossinante_DxO.jpg"
+    "image": "../images/rossinante.jpg",
+    "index": 5
   },
   {
     "name": "Tornado",
@@ -55,7 +59,8 @@
     "age": "7",
     "utility": "Transport",
     "price": "28",
-    "image": "../images/Tornado_DxO.jpg"
+    "image": "../images/tornado.jpg",
+    "index": 6
   },
   {
     "name": "Jolly Jumper",
@@ -63,7 +68,8 @@
     "age": "9",
     "utility": "Transport",
     "price": "15",
-    "image": "../images/JollyJumper_DxO.jpg"
+    "image": "../images/jolly-jumper.jpg",
+    "index": 7
   },
   {
     "name": "Petit Tonerre",
@@ -71,7 +77,8 @@
     "age": "13",
     "utility": "Tournaments",
     "price": "48",
-    "image": "../images/PetitTonerre_DxO.jpg"
+    "image": "../images/petit-tonerre.jpg",
+    "index": 8
   },
   {
     "name": "Crin Blanc",
@@ -79,6 +86,7 @@
     "age": "8",
     "utility": "Tournaments",
     "price": "45",
-    "image": "../images/CrinBlanc_DxO.jpg"
+    "image": "../images/crin-blanc.jpg",
+    "index": 9
   }
 ]
