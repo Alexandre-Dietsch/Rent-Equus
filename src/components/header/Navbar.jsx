@@ -1,8 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import '../../styles/navbar.css';
 
 export default function Navigation() {
-    return (
+  return (
+    <div className="header-container">
       <ul>
         <li>
           <Link to="/">
@@ -15,5 +17,6 @@ export default function Navigation() {
           </Link>
         </li>
       </ul>
-    );
-  }
+    </div>
+  );
+}
