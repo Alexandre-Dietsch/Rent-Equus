@@ -18,7 +18,7 @@ export default function App() {
             <Route exact path="/" component={Home} />
             <Route exact path="/horse-library" component={HorsesLibrary} />
             <Route path="/horse-profile/:index" component={HorseItem} />
-            <Route path='/reservation' component={ReservationContainer} />
+            <Route path='/reservation/:index' component={ReservationContainer} />
           </Switch>
           <Footer />
         </div>
