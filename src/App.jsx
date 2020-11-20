@@ -7,6 +7,7 @@ import HorseItem from './components/main/HorseItem.jsx';
 import Footer from './components/footer/Footer';
 import HorsesLibrary from "./components/main/HorsesLibrary";
 import ReservationContainer from './components/reservation/ReservationContainer';
+import Music from './components/main/Music';
 
 export default function App() {
   return (
@@ -14,11 +15,12 @@ export default function App() {
       <Router>
         <div>
           <Navbar />
+          <Music />
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/horse-library" component={HorsesLibrary} />
             <Route path="/horse-profile/:index" component={HorseItem} />
-            <Route path='/reservation' component={ReservationContainer} />
+            <Route path='/reservation/:index' component={ReservationContainer} />
           </Switch>
           <Footer />
         </div>
