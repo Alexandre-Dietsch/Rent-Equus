@@ -8,11 +8,11 @@ function HorsesLibrary() {
 		<div className='library-container'>
 			{
 				data.map(horse => (
-					<div key={horse.name}>
-						<img style={{ width: '30%' }} src={horse.image} alt={horse.name} />
-						<h3>{horse.name}</h3>
+					<div className="Container" key={horse.name}>
+						<img className="imghorse" style={{ width: '65%' }} src={horse.image} alt={horse.name} />
+						<h3 className="horsetitle">{horse.name}</h3>
 						<Link to={`/horse-profile/${horse.index}`}>
-							<button index={horse.index} type="submit" name={horse.name} >{horse.name}</button>
+							<button className="horsebutton" index={horse.index} type="submit" name={horse.name} >{horse.name}</button>
 						</Link>
 					</div>
 				))
